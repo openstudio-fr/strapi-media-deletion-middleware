@@ -1,0 +1,1 @@
+# strapi-media-deletion-middleware
