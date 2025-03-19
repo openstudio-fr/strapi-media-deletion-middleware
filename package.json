@@ -1,0 +1,41 @@
+{
+  "name": "@openstudio/strapi-media-deletion-middleware",
+  "version": "0.0.0-semantically-released",
+  "description": "Middleware to prevent media deletion when used in content",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "author": "OpenStudio",
+  "homepage": "https://github.com/openstudio-fr/strapi-media-deletion-middleware",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openstudio-fr/strapi-media-deletion-middleware.git"
+  },
+  "keywords": [
+    "strapi",
+    "media",
+    "delete"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.8.0",
+    "@strapi/types": "^5.11.0",
+    "prettier": "^3.5.3",
+    "semantic-release": "^24.2.0",
+    "typescript": "^5.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
