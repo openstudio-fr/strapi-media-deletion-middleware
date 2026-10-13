@@ -25,11 +25,11 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^19.8.0",
-    "@strapi/types": "^5.11.0",
-    "prettier": "^3.5.3",
-    "semantic-release": "^24.2.0",
-    "typescript": "^5.8.0"
+    "@commitlint/config-conventional": "^21.2.3",
+    "@strapi/types": "^5.57.0",
+    "prettier": "^3.9.10",
+    "semantic-release": "^25.0.9",
+    "typescript": "^7.0.2"
   },
   "publishConfig": {
     "access": "public"
