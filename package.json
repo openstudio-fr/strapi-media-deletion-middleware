@@ -31,6 +31,9 @@
     "semantic-release": "^25.0.9",
     "typescript": "^7.0.2"
   },
+  "overrides": {
+    "npm": "^11.21.1"
+  },
   "publishConfig": {
     "access": "public"
   },
